@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Tech](https://img.shields.io/badge/Stack-Flutter%20%7C%20Golang%20%7C%20PostgreSQLg%20%7C%20Next.js%20%7C%20Express.js-blue)
 
-A **web-based platform** to streamline church operations — manage members, track attendance, schedule events, send announcements, and handle finances.  
+Both **web-based platform** & **mobile(native) platform**to streamline church operations — manage members, track attendance, schedule events, send announcements, and handle finances.  
 Built with **Next.js**, **Express.js**, **PostgreSQL**, and deployed as a **PWA** for easy cross-platform access.
 
 ---
