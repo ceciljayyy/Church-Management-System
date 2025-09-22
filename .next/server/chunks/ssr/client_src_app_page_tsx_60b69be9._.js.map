@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nanac/INFINITIA/CMS/client/src/app/page.tsx"],"sourcesContent":["// app/page.tsx\r\n\"use client\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <div className=\"flex flex-col items-center justify-center min-h-screen\">\r\n      <h1 className=\"text-5xl font-extrabold text-red-500\">Hello Tailwind</h1>\r\n      <p className=\"mt-4 text-gray-600\">Welcome to Infinita CMS 🚀</p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,eAAe;;;;;;AACf;;AAEe,SAAS;IACtB,qBACE,wPAAC;QAAI,WAAU;;0BACb,wPAAC;gBAAG,WAAU;0BAAuC;;;;;;0BACrD,wPAAC;gBAAE,WAAU;0BAAqB;;;;;;;;;;;;AAGxC","debugId":null}}]
+}

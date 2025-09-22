@@ -1,41 +1,83 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See [https://help.github.com/articles/ignoring-files/](https://help.github.com/articles/ignoring-files/) for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+\############################
 
-# testing
-/coverage
+# Dependencies
 
+\############################
+node\_modules/
+
+\############################
+
+# Build & Output
+
+\############################
+.next/
+out/
+build/
+dist/
 # next.js
-/.next/
-/out/
+/.next
+/out
 
-# production
-/build
+\############################
 
-# misc
-.DS_Store
-*.pem
+# Testing
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+\############################
+coverage/
+\*.lcov
 
-# env files (can opt-in for committing if needed)
-.env*
+\############################
 
-# vercel
-.vercel
+# Environment Variables
 
-# typescript
-*.tsbuildinfo
+\############################
+.env
+.env.local
+.env.\*.local
+
+\############################
+
+# Logs & Debug
+
+\############################
+npm-debug.log\*
+pnpm-debug.log\*
+\*.log
+
+\############################
+
+# OS & IDE
+
+\############################
+.DS\_Store
+Thumbs.db
+.vscode/
+.idea/
+
+\############################
+
+# TypeScript
+
+\############################
+\*.tsbuildinfo
 next-env.d.ts
+
+\############################
+
+# Hosting / Deployment
+
+\############################
+.vercel
+.netlify
+  
+
+
+client/node_modules/
+server/node_modules/
+client/dist/
+server/dist/
+client/.env/
+server/.env/
+client/.next/
