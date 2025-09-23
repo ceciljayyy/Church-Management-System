@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ ⛪ Church Management System
 
-## Getting Started
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+![Tech](https://img.shields.io/badge/Stack-Next.js%20%7C%20Express.js%20%7C%20PostgreSQL-blue)
 
-First, run the development server:
+A **modern church management platform** for administrators, pastors, leaders, and members.
+Built with **Next.js** (frontend), **Express.js** (backend), and **PostgreSQL** (database) to provide reliability, scalability, and a seamless user experience.
+
+---
+
+## ✨ Features
+
+* 🙌 **Member Management** – Register, organize, and manage member records
+* 📅 **Event & Service Management** – Schedule services, events, and programs
+* 💸 **Donation & Tithes Tracking** – Record contributions and generate reports
+* 📝 **Attendance Tracking** – Monitor attendance for services and groups
+* 👥 **Group/Ministry Management** – Organize ministries, small groups, and teams
+* 📊 **Reports & Analytics** – Financial, attendance, and engagement insights
+* 📱 **Mobile App (Members)** – Easy access to updates, events, and giving
+
+---
+
+## 🛠 Tech Stack
+
+| Layer          | Technology                         |
+| -------------- | ---------------------------------- |
+| **Frontend**   | Next.js (TypeScript + Material UI) |
+| **Backend**    | Express.js (Node.js)               |
+| **Database**   | PostgreSQL (with Prisma ORM)       |
+| **API**        | RESTful API + JSON                 |
+| **Security**   | JWT Authentication, HTTPS          |
+| **Deployment** | Docker & Cloud Hosting             |
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+* Node.js & npm (or yarn, pnpm, bun)
+* PostgreSQL database
+* Git
+
+### Setup
 
 ```bash
+# Clone repository
+git clone https://github.com/ceciljayyy/Church-Management-System.git
+cd Church-Management-System
+
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env
+
+# Run database migrations
+npx prisma migrate dev
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the app in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment
 
-## Learn More
+We recommend deploying with **Vercel** (frontend) and **Dockerized Express.js backend** hosted on a cloud provider (e.g., AWS, Render, Railway).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to add.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
