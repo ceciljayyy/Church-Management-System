@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nanac/INFINITIA/CMS/client/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nexport default function Home() {\n  return (\n    <main className=\"flex min-h-screen flex-col items-center justify-center p-24\">\n      <h1 className=\"text-4xl font-bold text-blue-600\">Welcome to INFINITIA Admin Panel</h1>\n      <p className=\"mt-4 text-lg\">This is your church management dashboard. Login to start.</p>\n    </main>\n  );\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACtB,qBACE,wPAAC;QAAK,WAAU;;0BACd,wPAAC;gBAAG,WAAU;0BAAmC;;;;;;0BACjD,wPAAC;gBAAE,WAAU;0BAAe;;;;;;;;;;;;AAGlC","debugId":null}}]
+}

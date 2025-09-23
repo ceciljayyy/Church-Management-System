@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nanac/INFINITIA/CMS/client/src/components/Navbar.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport Link from \"next/link\";\r\n\r\nexport default function Navbar() {\r\n  return (\r\n    <nav className=\"bg-blue-600 text-white px-6 py-3 flex gap-6\">\r\n      <Link href=\"/\">Home</Link>\r\n      <Link href=\"/about\">About</Link>\r\n      <Link href=\"/dashboard\">Dashboard</Link>\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBACE,wPAAC;QAAI,WAAU;;0BACb,wPAAC,iLAAI;gBAAC,MAAK;0BAAI;;;;;;0BACf,wPAAC,iLAAI;gBAAC,MAAK;0BAAS;;;;;;0BACpB,wPAAC,iLAAI;gBAAC,MAAK;0BAAa;;;;;;;;;;;;AAG9B","debugId":null}}]
+}
