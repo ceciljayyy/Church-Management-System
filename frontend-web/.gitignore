@@ -1,0 +1,84 @@
+# See [https://help.github.com/articles/ignoring-files/](https://help.github.com/articles/ignoring-files/) for more about ignoring files.
+
+\############################
+
+# Dependencies
+
+\############################
+node\_modules/
+
+\############################
+
+# Build & Output
+
+\############################
+.next/
+out/
+build/
+dist/
+# next.js
+/.next
+/out
+
+\############################
+
+# Testing
+
+\############################
+coverage/
+\*.lcov
+
+\############################
+
+# Environment Variables
+
+\############################
+.env
+.env.local
+.env.\*.local
+
+\############################
+
+# Logs & Debug
+
+\############################
+npm-debug.log\*
+pnpm-debug.log\*
+\*.log
+
+\############################
+
+# OS & IDE
+
+\############################
+.DS\_Store
+Thumbs.db
+.vscode/
+.idea/
+
+\############################
+
+# TypeScript
+
+\############################
+\*.tsbuildinfo
+next-env.d.ts
+
+\############################
+
+# Hosting / Deployment
+
+\############################
+.vercel
+.netlify
+  
+
+
+node_modules/
+
+server/node_modules/
+dist/
+server/dist/
+.env/
+server/.env/
+.next/

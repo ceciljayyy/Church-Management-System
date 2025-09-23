@@ -1,84 +1,68 @@
 # See [https://help.github.com/articles/ignoring-files/](https://help.github.com/articles/ignoring-files/) for more about ignoring files.
+# Node
+node_modules/
 
-\############################
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Dependencies
-
-\############################
-node\_modules/
-
-\############################
-
-# Build & Output
-
-\############################
+# Build outputs
 .next/
 out/
 build/
 dist/
-# next.js
-/.next
-/out
+/.vercel/
+.vercel/
 
-\############################
-
-# Testing
-
-\############################
-coverage/
-\*.lcov
-
-\############################
-
-# Environment Variables
-
-\############################
+# Environment files
 .env
 .env.local
-.env.\*.local
+.env.*.local
 
-\############################
+# Testing
+coverage/
+.nyc_output/
+*.lcov
 
-# Logs & Debug
+# Caches
+.cache/
+.parcel-cache/
 
-\############################
-npm-debug.log\*
-pnpm-debug.log\*
-\*.log
-
-\############################
-
-# OS & IDE
-
-\############################
-.DS\_Store
+# OS files
+.DS_Store
 Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editors / IDEs
 .vscode/
 .idea/
-
-\############################
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
 
 # TypeScript
-
-\############################
-\*.tsbuildinfo
+*.tsbuildinfo
 next-env.d.ts
 
-\############################
-
-# Hosting / Deployment
-
-\############################
+# Hosting / deployment
 .vercel
 .netlify
-  
 
+# Misc
+*.tgz
+*.gz
+*.zip
 
-node_modules/
-
+# Project-specific
+client/frontend-web/node_modules/
 server/node_modules/
-dist/
 server/dist/
-.env/
-server/.env/
-.next/
+server/.env
