@@ -20,6 +20,8 @@ Built with **Next.js** (frontend), **Express.js** (backend), and **PostgreSQL** 
 * 📱 **Mobile App (Members)** – Easy access to updates, events, and giving
 
 ---
+
+## ✨ Team
 | Role                          | Developer      |
 | ----------------------------- | -------------- |
 | **Frontend Web (Next.js)**    | **NK-CIL**     |
@@ -27,6 +29,7 @@ Built with **Next.js** (frontend), **Express.js** (backend), and **PostgreSQL** 
 | **Database (Postgres + Go)**  | **Martin**     |
 | **Frontend Mobile (Flutter)** | **Method**     |
 
+---
 
 ## 🛠 Tech Stack
 
